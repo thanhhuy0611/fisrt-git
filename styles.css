@@ -1,0 +1,30 @@
+
+.box-shadow { 
+    box-shadow: 0 .25rem .75rem rgb(48, 47, 47); 
+}
+.card-deck {
+    margin: 0;
+}
+.container {
+    max-width: 1100px;
+}
+.signInButton{
+    width: 70%; 
+    background-color: rgb(101, 218, 101); 
+    border: transparent;
+}
+.signInButton:hover {
+    border: transparent;
+    background-color: rgb(70, 153, 70);
+}
+.form-footer {
+    border-radius: 15px;
+    margin-top: 5%;
+    background-color:  rgb(153, 214, 153);
+}
+.needs-validation {
+    padding: 20px;
+}
+.bluetest {
+    background-color: blue;
+}

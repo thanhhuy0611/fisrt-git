@@ -1,2 +1,208 @@
-test git and github 
-change
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <nav class="navbar bg-light border-bottom box-shadow  .navbar-expand-lg navbar-light fixed-top">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu-items">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="menu-items">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item ml-3 pt-1">
+                        <a class="nav-link text-uppercase" href="#">Our Classes</a>
+                    </li>
+                    <li class="nav-item ml-3 pt-1">
+                        <a class="nav-link text-uppercase" href="#">Recent Projects</a>
+                    </li>
+                    <li class="nav-item ml-3 pt-1">
+                        <a class="nav-link text-uppercase" href="#">About</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <header class="text-center mx-auto mt-5 py-5">
+            <div class="container">
+                <img class="my-2" src="https://i.imgur.com/hViW80o.png" alt="CS-logo" />
+                <h1 class="display-4 mb-4 text-danger font-weight-normal">
+                    Course Pricing
+                </h1>
+                <h4>
+                    Top-Rated Programming Courses Starting April 2020
+                </h4>
+                <p class="lead">
+                    Designed to help talented programmers to meet and learn new technologies fast. Meet twice a week
+                    from 7
+                    to 9 PM and
+                    build real projects and get real experience.
+                </p>
+            </div>
+        </header>
+        <section>
+            <div class="card-deck text-center">
+                <div class="card mb-4 box-shadow">
+                    <div class="card-header">
+                        <img src="https://svgshare.com/i/6Rb.svg" alt="web-banner" width="120px">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Web Design Bootcamp</h5>
+                        <ul>
+                            <li>Build portfolio from scratch</li>
+                            <li>Responsive with Bootstrap</li>
+                            <li>Customize with Wordpress</li>
+                            <li>Mentoring support</li>
+                        </ul>
+                        <h4 class="card-title">999$/month</h4>
+                    </div>
+                    <div class="card-footer">
+                        <button type="button" class=" btn btn-danger signInButton">Sign in</button>
+                    </div>
+                </div>
+                <div class="card mb-4 box-shadow">
+                    <div class="card-header">
+                        <img src="https://www.coderschool.vn/assets/coding.svg" alt="fullstack-banner" width="120px">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="title-card">Full Stack Web Development</h5>
+                        <ul>
+                            <li>HTML/CSS</li>
+                            <li>Javascript,React</li>
+                            <li>Python, Flask</li>
+                        </ul>
+                        <h4 class="title-card">999$/month</h4>
+                    </div>
+                    <div class="card-footer">
+                        <button type="button" class=" btn btn-danger signInButton">Sign in</button>
+                    </div>
+                </div>
+                <div class="card mb-4 box-shadow">
+                    <div class="card-header">
+                        <img src="https://www.coderschool.vn/assets/ai.svg" alt="data-banner" width="120px">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="title-card">AI/Machine Learning Engineer</h5>
+                        <ul>
+                            <li>SQL, Machine Learning, Deep Learning, NLP, GCP</li>
+                            <li>End-to-end Machine Learning</li>
+                            <li>Python, Flask</li>
+                        </ul>
+                        <h4 class="title-card">999$/month</h4>
+                    </div>
+                    <div class="card-footer">
+                        <button type="button" class=" btn btn-danger signInButton">Sign in</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="form-footer">
+            <form class="needs-validation" novalidate>
+                <div class="form-row">
+                    <div class="col-md-4 mb-3">
+                        <label for="validationCustom01">First name</label>
+                        <input type="text" class="form-control" id="validationCustom01" placeholder="Fill your first name" required>
+                        <div class="valid-feedback">
+                            Looks good!
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <label for="validationCustom02">Last name</label>
+                        <input type="text" class="form-control" id="validationCustom02" placeholder="Fill your last name" required>
+                        <div class="valid-feedback">
+                            Looks good!
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <label for="validationCustom02">Course</label>
+                        <select class="form-control">
+                            <option value="one">Web Design Bootcamp</option>
+                            <option value="two">Full Stack Web Development</option>
+                            <option value="three">AI/Machine Learning Engineer</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="col-md-6 mb-3">
+                        <label for="validationCustom03">City</label>
+                        <input type="text" class="form-control" id="validationCustom03" placeholder="City" required>
+                        <div class="invalid-feedback">
+                            Please provide a valid city.
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <label for="validationCustom04">State</label>
+                        <input type="text" class="form-control" id="validationCustom04" placeholder="State" required>
+                        <div class="invalid-feedback">
+                            Please provide a valid state.
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <label for="validationCustom05">Zip</label>
+                        <input type="text" class="form-control" id="validationCustom05" placeholder="Zip" required>
+                        <div class="invalid-feedback">
+                            Please provide a valid zip.
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                        <label class="form-check-label" for="invalidCheck">
+                            Agree to terms and conditions
+                        </label>
+                        <div class="invalid-feedback">
+                            You must agree before submitting.
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <button class="btn btn-light" type="submit">Submit form</button>
+                </div>
+            </form>
+
+            <script>
+                // Example starter JavaScript for disabling form submissions if there are invalid fields
+                (function () {
+                    'use strict';
+                    window.addEventListener('load', function () {
+                        // Fetch all the forms we want to apply custom Bootstrap validation styles to
+                        var forms = document.getElementsByClassName('needs-validation');
+                        // Loop over them and prevent submission
+                        var validation = Array.prototype.filter.call(forms, function (form) {
+                            form.addEventListener('submit', function (event) {
+                                if (form.checkValidity() === false) {
+                                    event.preventDefault();
+                                    event.stopPropagation();
+                                }
+                                form.classList.add('was-validated');
+                            }, false);
+                        });
+                    }, false);
+                })();
+            </script>
+        </footer>
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
+    </div>
+</body>
+
+
+</html>
